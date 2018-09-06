@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    grid-template-rows: repeat(10, minmax(100px, auto));
+    align-items: stretch;
+  }
+   .bg{
+    background: url(https://img11.hostingpics.net/pics/273491fondtr.jpg);
+   }
+  #one{
+    grid-column: 1 / 6;
+    grid-row: 1;
+    margin: 0;
+    height: 200px;
+  }
+  
+  
+   #two { 
+    border: 2px solid;
+    grid-column: 1 / 6;
+    grid-row: 2 ;
+  }
+  
+  #three {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 4 / 6;
+    grid-row: 3 / 8;
+  }
+  #four {
+    grid-column: 1 / 4;
+    grid-row: 3 / 6 ;
+    border: 3px black solid;
+    border-radius: 25px;
+    background-size: auto;
+    }
+  
+  #five {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 1 / 4;
+    grid-row: 6 / 8;
+    }
+  #six {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 1 / 4;
+    grid-row: 8 / 10;
+  }
+  
+  #seven {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 4 / 6;
+    grid-row: 8 / 10 ;
+  }
+  
+  #eight {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 1 / 6;
+    grid-row: 10 / 11;
+  }
+  
+  
+  
